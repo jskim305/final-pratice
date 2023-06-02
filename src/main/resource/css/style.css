@@ -1,0 +1,171 @@
+/* 전체 */
+* {
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+a:hover {
+  color: inherit;
+}
+body {
+  height: 1000px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+}
+
+#login {
+  margin-left: 130px;
+}
+/* 헤더부분 */
+header {
+  display: flex;
+  height: 100px;
+  margin-bottom: 130px;
+}
+header > .logo {
+  float: left;
+}
+header > .logo > img {
+  width: 150px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+header > nav {
+  float: right;
+  margin-top: 20px;
+}
+.nav {
+  width: 800px;
+  height: 40px;
+}
+.logo > img {
+  width: 200px;
+  height: 100px;
+}
+/*혼슈 규슈 등 있는곳*/
+.nav > li {
+  width: 200px;
+  float: left;
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgb(245, 189, 182);
+  position: relative;
+}
+.nav > li:hover {
+  background-color: blueviolet;
+  color: white;
+}
+header > #login {
+  clear: both; /*위에플롯 쌓은걸 없애준다는뜻 클리어 보스 */
+  text-align: right;
+  margin-right: 30px;
+}
+
+/*로그인*/
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  float: right;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+.container h2 {
+  text-align: center;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.container input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.container input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+footer {
+  clear: both;
+  width: 100%;
+  background-color: cornflowerblue;
+  display: flex;
+  border-collapse: collapse;
+}
+
+.items_list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.items_list li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.items_list li a {
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+}
+
+.items_list li a:hover {
+  background-color: #f0f0f0;
+}
+
+.items_list li a .img_area {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.items_list li a .img_area img {
+  max-width: 100%;
+  height: auto;
+}
+
+.items_list li a .area {
+  font-size: 12px;
+}
+
+.items_list {
+  display: flex;
+  width: 1280px;
+  height: 300px;
+  padding-top: 10px;
+}
